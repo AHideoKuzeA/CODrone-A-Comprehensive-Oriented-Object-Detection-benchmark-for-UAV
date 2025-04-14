@@ -1,1 +1,1 @@
-# CODrone-A-Comprehensive-Oriented-Object-Detection-benchmark-for-UAV
+# CODrone: A Comprehensive Oriented Object Detection benchmark for UAV
