@@ -41,9 +41,9 @@ CODrone is a comprehensive oriented object detection dataset for UAVs that accur
 ```shell
 CODrone/
 ├── test/
-│   ├── annfile/
+│   ├── annfile/     # DOTA format annotation
 │   ├── images/
-│   └── labels/
+│   └── labels/      # VOC format annotation
 ├── train/
 │   ├── annfile/
 │   ├── images/
