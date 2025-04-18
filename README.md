@@ -19,7 +19,7 @@ GOI can locate 3D gaussians of interests as directed by open-vocabulary prompts.
 - An open-vocabulary dataset is proposed, named MipNeRF360-OV.
 
 
-
+![Description](img/HR.png)
 
 
 ## Citation
