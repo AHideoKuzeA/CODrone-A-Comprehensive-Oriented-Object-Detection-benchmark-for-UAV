@@ -2,8 +2,8 @@
 <!--   <h1 align="center"><img height="100" src="https://github.com/imlixinyang/director3d-page/raw/master/assets/icon.ico"></h1> -->
   <h1 align="center"> <b>CODrone</b>: CODrone: A Comprehensive Oriented Object Detection benchmark for UAV</h1>
   <p align="center">
-        <a href="https://arxiv.org/abs/2405.17596"><img src='https://img.shields.io/badge/arXiv-GOI-red?logo=arxiv' alt='Paper PDF'></a>
-        <a href='https://drive.google.com/file/d/1JunEiWyPNwGprdqXh-D2dTQPFMaRisDz/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-MipNeRF360 OV-yellow?logo=databricks' alt='CODrone'></a>
+        <a href="https://arxiv.org/abs/2405.17596"><img src='https://img.shields.io/badge/arXiv-CODrone-red?logo=arxiv' alt='Paper PDF'></a>
+        <a href='https://drive.google.com/file/d/1JunEiWyPNwGprdqXh-D2dTQPFMaRisDz/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-CODrone-yellow?logo=databricks' alt='CODrone'></a>
   </p>
     
 <!-- <img src='assets/pipeline.gif'> -->
@@ -19,11 +19,15 @@ CODrone is a comprehensive oriented object detection dataset for UAVs that accur
 
 **⭐ Key contributions of CODrone**:
 
-
 - We proposed a **large-scale**, **high-resolution** **UAV**-**oriented object detection** dataset, CODrone, which consists of over ten thousand UAV-captured images with precise **oriented bounding box** annotations and **diverse object categories**.
 - The proposed CODrone dataset considers multiple influential factors, including **image acquisition altitude**, **camera perspective**, **lighting conditions**, and **geographic location**. 
 - Based on the proposed dataset, we establish a UAV-oriented object detection benchmark and conduct training and evaluation using X representative state-of-the-art methods. 
 
+**🚀 Try it out!!!**:
+
+- 📥 [Download from Google Drive](https://drive.google.com/your_link_here)
+
+- 📥 [百度网盘下载（提取码: 1234）](https://pan.baidu.com/s/your_link_here)
 
 ## Characteristics
 <div align="center">
