@@ -1,9 +1,9 @@
 <p align="center">
 <!--   <h1 align="center"><img height="100" src="https://github.com/imlixinyang/director3d-page/raw/master/assets/icon.ico"></h1> -->
-  <h1 align="center"> <b>GOI</b>: CODrone: A Comprehensive Oriented Object Detection benchmark for UAV</h1>
+  <h1 align="center"> <b>CODrone</b>: CODrone: A Comprehensive Oriented Object Detection benchmark for UAV</h1>
   <p align="center">
         <a href="https://arxiv.org/abs/2405.17596"><img src='https://img.shields.io/badge/arXiv-GOI-red?logo=arxiv' alt='Paper PDF'></a>
-        <a href='https://drive.google.com/file/d/1JunEiWyPNwGprdqXh-D2dTQPFMaRisDz/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-MipNeRF360 OV-yellow?logo=databricks' alt='MipNeRF360-OV'></a>
+        <a href='https://drive.google.com/file/d/1JunEiWyPNwGprdqXh-D2dTQPFMaRisDz/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-MipNeRF360 OV-yellow?logo=databricks' alt='CODrone'></a>
   </p>
     
 <!-- <img src='assets/pipeline.gif'> -->
@@ -11,13 +11,19 @@
 
 CODrone is a comprehensive oriented object detection dataset for UAVs that accurately reflects real-world conditions. 
 
+<div align="center">
+
+<img src="img/domain.jpg" width="500"/>
+
+</div>
+
 **⭐ Key contributions of CODrone**:
 
 
-- We proposed a large-scale, high-resolution UAV-oriented object detection dataset, CODrone, which consists of over ten thousand UAV-captured images with precise oriented bounding box annotations.To the best of our knowledge,  CODrone is the first UAV object detection dataset featuring oriented annotations across a wide range of object categories.
-- The proposed CODrone dataset considers multiple influential factors, including image acquisition altitude, camera perspective, lighting conditions, and geographic location. These considerations enhance the dataset’s ability to support robust model training and realistic performance evaluation for UAV-based oriented object detection.
+- We proposed a **large-scale**, **high-resolution** **UAV**-**oriented object detection** dataset, CODrone, which consists of over ten thousand UAV-captured images with precise **oriented bounding box** annotations and **diverse object categories**.
+- The proposed CODrone dataset considers multiple influential factors, including **image acquisition altitude**, **camera perspective**, **lighting conditions**, and **geographic location**. 
 - Based on the proposed dataset, we establish a UAV-oriented object detection benchmark and conduct training and evaluation using X representative state-of-the-art methods. 
-We identify existing limitations and challenges in the field, which can support future advancements in both algorithm development and practical deployment.
+
 
 ## Characteristics
 <div align="center">
@@ -35,32 +41,50 @@ We identify existing limitations and challenges in the field, which can support 
 
 </div>
 We present a comparison between CODrone and other commonly used UAV-based object detection datasets.
-It is important to note that datasets designed for more specialized tasks, such as multiview object detection, video-based dynamic object tracking, and other fine-grained UAV applications, are not included in the table, as their objectives and data structures differ significantly from standard image-based object detection tasks.
-
 CODrone significantly expands several key dimensions, including image resolution, object category diversity, and variation in flight altitude and camera angle.
 For resolution, CODrone employs a 3840 × 2160 high-resolution onboard camera, aligning with the capabilities of modern UAV hardware.
 In terms of object classes, unlike most existing UAV OOD datasets that focus primarily on vehicles, CODrone includes a more diverse range of categories, thereby increasing the difficulty and realism of the detection task.
 Furthermore, we explicitly annotate both altitude and camera angle for each image, enabling research into UAV pose-aware perception and related tasks. 
-Although we collected a large amount of video data, we manually selected and annotated only 10,004 high-quality images for the OOD task. 
-The remaining video resources will be labeled and released in future work to support related tasks such as UAV-based video object tracking and multi-frame detection.
+
 
 ### High resolution brings more high-quality information
 <div align="center">
 
-![Description](img/HR.jpg)
+<img src="img/HR.jpg" width="800"/>
 
 </div>
 
 CODrone employs a **3840 × 2160** high-resolution onboard camera, aligning with the capabilities of modern UAV hardware.
 
-### High resolution brings more high-quality information
-<div align="center">
+### Multi-altitude and multi-angle captures for broad flight scenario adaptation
 
-![Description](img/HR.jpg)
+<div align="center">
+  
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="img/Height.jpg" width="400"/>
+    </td>
+    <td align="center" valign="middle">
+      <img src="img/Angle.jpg" width="400"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
-CODrone employs a **3840 × 2160** high-resolution onboard camera, aligning with the capabilities of modern UAV hardware.
+The UAV was configured to capture imagery from two camera angles (**30°** and **90°**) and at three flight altitudes (**30 m**, **60 m**, and **100 m**), resulting in a total of **6** unique viewpoint combinations.
+
+
+### More diverse scenes, broader application potential
+<div align="center">
+
+<img src="img/Sample.jpg" width="800"/>
+
+</div>
+
+CODrone covers a wide range of environments, from urban areas and rural towns to ports and industrial zones, encompassing most scene types encountered in real-world UAV-based urban applications.
+
 
 ## Citation
 
