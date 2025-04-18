@@ -19,19 +19,48 @@ CODrone is a comprehensive oriented object detection dataset for UAVs that accur
 - Based on the proposed dataset, we establish a UAV-oriented object detection benchmark and conduct training and evaluation using X representative state-of-the-art methods. 
 We identify existing limitations and challenges in the field, which can support future advancements in both algorithm development and practical deployment.
 
-## Citation
-|     Dataset    | Resolution |   |      | Categories | Altitude Gap | Camera Angles | Images |   | Objects |   | OBB |
-|:--------------:|:----------:|:-:|:----:|:----------:|:------------:|:-------------:|:------:|:-:|:-------:|:-:|:---:|
-|  VisDrone2019  |       2000 | × | 1500 |     10     |       *      |       *       |   10.2 | k |    54.2 | k |     |
-|      UAVDT     |       1080 | × | 540  |      3     |      60m     |       *       |   80.0 | k |   841.5 | k |     |
-|     AU-AIR     |       1920 | × | 1080 |      8     |      25m     |       45      |    3.2 | k |   132.0 | k |     |
-|      CARPK     |       1280 | × | 720  |      1     |       *      |       *       |    1.4 | k |    89.7 | k |     |
-|     HazyDet    |       1333 | × | 800  |      3     |       *      |       *       |   11.6 | k |   383.0 | k |  　 |
-|  DroneVehicle  |        840 | × | 712  |      5     |      40m     |       30      |   56.8 | k |   953.0 | k |  1  |
-|     UAV-ROD    |       1920 | × | 1080 |      1     |      50m     |       *       |    1.5 | k |    30.0 | k |  1  |
-| CODrone (ours) |       3840 | × | 2160 |     12     |      70m     |       60      |   10.0 | k |   596.7 | k |  1  |
+## Characteristics
+<div align="center">
+  
+|     Dataset    | Resolution | Categories | Altitude Gap | Camera Angles | Images | Objects | OBB |
+|:--------------:|:----------:|:----------:|:------------:|:-------------:|:------:|:-------:|:---:|
+|  VisDrone2019  |  2000×1500 |     10     |       *      |       *       |  10.2k |   54.2k |     |
+|      UAVDT     |   1080×540 |      3     |      60m     |       *       |  80.0k |  841.5k |     |
+|     AU-AIR     |  1920×1080 |      8     |      25m     |       45      |   3.2k |  132.0k |     |
+|      CARPK     |   1280×720 |      1     |       *      |       *       |   1.4k |   89.7k |     |
+|     HazyDet    |   1333×800 |      3     |       *      |       *       |  11.6k |  383.0k |  　 |
+|  DroneVehicle  |    840×712 |      5     |      40m     |       30      |  56.8k |  953.0k |  ✅  |
+|     UAV-ROD    |  1920×1080 |      1     |      50m     |       *       |   1.5k |   30.0k |  ✅  |
+| **CODrone (ours)** |  **3840×2160** |     **12**     |      **70m**     |       **60**      |  10.0k |  596.7k |  ✅  |
+
+</div>
+We present a comparison between CODrone and other commonly used UAV-based object detection datasets.
+It is important to note that datasets designed for more specialized tasks, such as multiview object detection, video-based dynamic object tracking, and other fine-grained UAV applications, are not included in the table, as their objectives and data structures differ significantly from standard image-based object detection tasks.
+
+CODrone significantly expands several key dimensions, including image resolution, object category diversity, and variation in flight altitude and camera angle.
+For resolution, CODrone employs a 3840 × 2160 high-resolution onboard camera, aligning with the capabilities of modern UAV hardware.
+In terms of object classes, unlike most existing UAV OOD datasets that focus primarily on vehicles, CODrone includes a more diverse range of categories, thereby increasing the difficulty and realism of the detection task.
+Furthermore, we explicitly annotate both altitude and camera angle for each image, enabling research into UAV pose-aware perception and related tasks. 
+Although we collected a large amount of video data, we manually selected and annotated only 10,004 high-quality images for the OOD task. 
+The remaining video resources will be labeled and released in future work to support related tasks such as UAV-based video object tracking and multi-frame detection.
+
+### High resolution brings more high-quality information
+<div align="center">
+
 ![Description](img/HR.jpg)
 
+</div>
+
+CODrone employs a **3840 × 2160** high-resolution onboard camera, aligning with the capabilities of modern UAV hardware.
+
+### High resolution brings more high-quality information
+<div align="center">
+
+![Description](img/HR.jpg)
+
+</div>
+
+CODrone employs a **3840 × 2160** high-resolution onboard camera, aligning with the capabilities of modern UAV hardware.
 
 ## Citation
 
