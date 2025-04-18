@@ -36,7 +36,7 @@ CODrone is a comprehensive oriented object detection dataset for UAVs that accur
 
 - 📥 [Download from Google Drive](https://drive.google.com/your_link_here)
 
-- 📥 [百度网盘下载（提取码: 1234）](https://pan.baidu.com/s/your_link_here)
+- 📥 [Download from Baidu Drive](https://pan.baidu.com/s/your_link_here) (extraction code：)
 
 ## Characteristics
 <div align="center">
