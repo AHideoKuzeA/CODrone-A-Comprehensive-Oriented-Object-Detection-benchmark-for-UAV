@@ -3,7 +3,7 @@
   <h1 align="center"> <b>CODrone</b>: CODrone: A Comprehensive Oriented Object Detection benchmark for UAV</h1>
   <p align="center">
         <a href="https://arxiv.org/abs/2405.17596"><img src='https://img.shields.io/badge/arXiv-CODrone-red?logo=arxiv' alt='Paper PDF'></a>
-        <a href='https://drive.google.com/file/d/1JunEiWyPNwGprdqXh-D2dTQPFMaRisDz/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-CODrone-yellow?logo=databricks' alt='CODrone'></a>
+        <a href='https://drive.google.com/file/d/1vZb8VKNs-bFZNB68ar1WR3wPWyL824Ha/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-CODrone-yellow?logo=databricks' alt='CODrone'></a>
   </p>
     
 <!-- <img src='assets/pipeline.gif'> -->
