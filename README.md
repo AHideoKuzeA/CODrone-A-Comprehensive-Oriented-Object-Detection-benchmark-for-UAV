@@ -119,7 +119,15 @@ CODrone covers a wide range of environments, from urban areas and rural towns to
 ## Citation
 
 ```
-Coming soon！！！
+@misc{ye2025clearflexibleprecisecomprehensive,
+      title={More Clear, More Flexible, More Precise: A Comprehensive Oriented Object Detection benchmark for UAV}, 
+      author={Kai Ye and Haidi Tang and Bowen Liu and Pingyang Dai and Liujuan Cao and Rongrong Ji},
+      year={2025},
+      eprint={2504.20032},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.20032}, 
+}
 ```
 
 
