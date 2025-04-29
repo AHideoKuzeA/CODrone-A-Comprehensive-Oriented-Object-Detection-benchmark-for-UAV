@@ -1,6 +1,6 @@
 <p align="center">
 <!--   <h1 align="center"><img height="100" src="https://github.com/imlixinyang/director3d-page/raw/master/assets/icon.ico"></h1> -->
-  <h1 align="center"> <b>CODrone</b>: CODrone: A Comprehensive Oriented Object Detection benchmark for UAV</h1>
+  <h1 align="center"> <b>CODrone</b>: A Comprehensive Oriented Object Detection benchmark for UAV</h1>
   <p align="center">
         <a href="https://arxiv.org/abs/2504.20032"><img src='https://img.shields.io/badge/arXiv-CODrone-red?logo=arxiv' alt='Paper PDF'></a>
         <a href='https://drive.google.com/file/d/1vZb8VKNs-bFZNB68ar1WR3wPWyL824Ha/view?usp=sharing'><img src='https://img.shields.io/badge/Dataset-CODrone-yellow?logo=databricks' alt='CODrone'></a>
