@@ -119,12 +119,7 @@ CODrone covers a wide range of environments, from urban areas and rural towns to
 ## Citation
 
 ```
-@article{goi2024,
-    title={GOI: Find 3D Gaussians of Interest with an Optimizable Open-vocabulary Semantic-space Hyperplane},
-    author={Qu, Yansong and Dai, Shaohui and Li, Xinyang and Lin, Jianghang and Cao, Liujuan and Zhang, Shengchuan and Ji, Rongrong},
-    journal={arXiv preprint arXiv:2405.17596},
-    year={2024}
-}
+Coming soon！！！
 ```
 
 
