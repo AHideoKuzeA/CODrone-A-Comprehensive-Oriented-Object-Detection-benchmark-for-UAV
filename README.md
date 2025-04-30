@@ -17,7 +17,7 @@ CODrone is a comprehensive oriented object detection dataset for UAVs that accur
 <table>
   <tr>
     <td align="center" valign="middle">
-      <img src="img/first.png" width="500"/>
+      <img src="img/first.jpg" width="500"/>
     </td>
     <td align="center" valign="middle">
       <img src="img/domain.jpg" width="500"/>
