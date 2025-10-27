@@ -1,0 +1,28 @@
+{
+  "nproc": 10,
+  "img_dirs": [
+    "your image directory"
+  ],
+  "ann_dirs": [
+    "your annotation directory"
+  ],
+  "sizes": [
+    1180
+  ],
+  "gaps": [
+    200
+  ],
+  "rates": [
+    1.0
+  ],
+  "img_rate_thr": 0.6,
+  "iof_thr": 0.7,
+  "no_padding": false,
+  "padding_value": [
+    104,
+    116,
+    124
+  ],
+  "save_dir": "your output directory",
+  "save_ext": ".png"
+}
