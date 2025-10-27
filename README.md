@@ -115,6 +115,50 @@ The UAV was configured to capture imagery from two camera angles (**30°** and *
 
 CODrone covers a wide range of environments, from urban areas and rural towns to ports and industrial zones, encompassing most scene types encountered in real-world UAV-based urban applications.
 
+## How to visualize CODrone annotations
+
+1) Install
+```bash
+pip install opencv-python numpy
+```
+
+2) Edit paths in `Vis_CODrone_GT.py` (inside `main()`):
+```python
+img_dir    = "CODrone/train/images"
+label_dir  = "CODrone/train/annfile"   
+output_dir = "CODrone/train/viz"
+```
+
+3) Run
+```bash
+python Vis_CODrone_GT.py
+```
+
+## How to split CODrone images
+
+1) Install
+```bash
+pip install opencv-python numpy pillow shapely
+```
+
+2) Run (DOTA-style sliding window & IOF assignment) — **direct args**
+```bash
+python img_split.py   --img-dirs CODrone/train/images   --ann-dirs CODrone/train/annfile   --sizes 1024   --gaps 512   --rates 1.0   --img-rate-thr 0.6   --iof-thr 0.7   --save-dir CODrone/train/splits   --save-ext .png   --nproc 8
+```
+
+or **via JSON config** (recommended; CLI flags override JSON):
+```bash
+# examples (pick one)
+python img_split.py --base-json ss_train.json
+python img_split.py --base-json ss_val.json
+python img_split.py --base-json ss_test.json
+```
+
+3) Output
+- Patches: `CODrone/train/splits/images/`
+- DOTA style txts for patches: `CODrone/train/splits/annfiles/`
+
+**Note:** Tiling (sizes/gaps/rates), IOF-based object assignment, truncation handling, and label writing strictly follow **DOTA devkit** conventions.
 
 ## Citation
 
