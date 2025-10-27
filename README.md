@@ -143,15 +143,15 @@ pip install opencv-python numpy pillow shapely
 
 2) Run (DOTA-style sliding window & IOF assignment) — **direct args**
 ```bash
-python img_split.py   --img-dirs CODrone/train/images   --ann-dirs CODrone/train/annfile   --sizes 1024   --gaps 512   --rates 1.0   --img-rate-thr 0.6   --iof-thr 0.7   --save-dir CODrone/train/splits   --save-ext .png   --nproc 8
+python CODrone_Split.py   --img-dirs CODrone/train/images   --ann-dirs CODrone/train/annfile   --sizes 1024   --gaps 512   --rates 1.0   --img-rate-thr 0.6   --iof-thr 0.7   --save-dir CODrone/train/splits   --save-ext .png   --nproc 8
 ```
 
 or **via JSON config** (recommended; CLI flags override JSON):
 ```bash
 # examples (pick one)
-python img_split.py --base-json ss_train.json
-python img_split.py --base-json ss_val.json
-python img_split.py --base-json ss_test.json
+python CODrone_Split.py --base-json ss_train.json
+python CODrone_Split.py --base-json ss_val.json
+python CODrone_Split.py --base-json ss_test.json
 ```
 
 3) Output
