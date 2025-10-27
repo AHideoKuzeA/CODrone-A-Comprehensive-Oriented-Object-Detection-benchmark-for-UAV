@@ -149,9 +149,9 @@ python CODrone_Split.py   --img-dirs CODrone/train/images   --ann-dirs CODrone/t
 or **via JSON config** (recommended; CLI flags override JSON):
 ```bash
 # examples (pick one)
-python CODrone_Split.py --base-json ss_train.json
-python CODrone_Split.py --base-json ss_val.json
-python CODrone_Split.py --base-json ss_test.json
+python CODrone_Split.py --base-json split_configs/ss_train.json
+python CODrone_Split.py --base-json split_configs/ss_val.json
+python CODrone_Split.py --base-json split_configs/ss_test.json
 ```
 
 3) Output
